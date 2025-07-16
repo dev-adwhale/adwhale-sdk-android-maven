@@ -14,8 +14,8 @@
   <dependencies>
     <dependency>
       <groupId>net.adwhale.sdk.core</groupId>
-      <artifactId>adwhale-core-sdk-uat</artifactId>
-      <version>2.5.7</version>
+      <artifactId>adwhale-core-sdk</artifactId>
+      <version>2.5.8</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
