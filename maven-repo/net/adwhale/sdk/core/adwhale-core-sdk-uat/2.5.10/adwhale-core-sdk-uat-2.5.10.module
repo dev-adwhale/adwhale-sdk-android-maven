@@ -26,11 +26,11 @@
         {
           "name": "adwhale-core-sdk-uat-2.5.10.aar",
           "url": "adwhale-core-sdk-uat-2.5.10.aar",
-          "size": 31991,
-          "sha512": "cf178fc7929b6975b035aca8bcf1965045e757eb079d044caf547289f3332e9264d2945514e910be7602be3bfb8049e4572554dec97acb1971b9a8bc48ca9061",
-          "sha256": "2657c69ee6f4a2c983912bbe262b72d575ba424452474b5b128c5fa88807e9ee",
-          "sha1": "2482bcec55a3f75b7a3aa7ddd3a857f558d23b99",
-          "md5": "297124ce372dc1e4fd089ce172e9441b"
+          "size": 32167,
+          "sha512": "e458e35c844b0bde69da76f40b519272061b26ff93fe3266cd2bfbc63d1946e45a6f88add18533232e7e8d1761975385b26e33d17646dfb2a7ef210c47195dc8",
+          "sha256": "0c435f3ce90d99d2cf936416b9c25fb54e60de78e8c0f1e89539b5726ab392f3",
+          "sha1": "4f34099f63e6cd0c41f4115211946390a0962d7b",
+          "md5": "74cc21e2f2eca96226659f4654e966e9"
         }
       ]
     },
@@ -62,11 +62,11 @@
         {
           "name": "adwhale-core-sdk-uat-2.5.10.aar",
           "url": "adwhale-core-sdk-uat-2.5.10.aar",
-          "size": 31991,
-          "sha512": "cf178fc7929b6975b035aca8bcf1965045e757eb079d044caf547289f3332e9264d2945514e910be7602be3bfb8049e4572554dec97acb1971b9a8bc48ca9061",
-          "sha256": "2657c69ee6f4a2c983912bbe262b72d575ba424452474b5b128c5fa88807e9ee",
-          "sha1": "2482bcec55a3f75b7a3aa7ddd3a857f558d23b99",
-          "md5": "297124ce372dc1e4fd089ce172e9441b"
+          "size": 32167,
+          "sha512": "e458e35c844b0bde69da76f40b519272061b26ff93fe3266cd2bfbc63d1946e45a6f88add18533232e7e8d1761975385b26e33d17646dfb2a7ef210c47195dc8",
+          "sha256": "0c435f3ce90d99d2cf936416b9c25fb54e60de78e8c0f1e89539b5726ab392f3",
+          "sha1": "4f34099f63e6cd0c41f4115211946390a0962d7b",
+          "md5": "74cc21e2f2eca96226659f4654e966e9"
         }
       ]
     }
