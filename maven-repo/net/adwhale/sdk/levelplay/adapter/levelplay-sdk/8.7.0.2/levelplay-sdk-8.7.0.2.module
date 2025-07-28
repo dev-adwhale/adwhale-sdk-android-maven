@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.levelplay.adapter",
+    "module": "levelplay-sdk",
+    "version": "8.7.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "realReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "levelplay-sdk-8.7.0.2.aar",
+          "url": "levelplay-sdk-8.7.0.2.aar",
+          "size": 18451,
+          "sha512": "1c84b043d260ba18845b94d85f6f21fd3ac91fd79c6e6dae9424441dd8646ea8b8e1312aea0bebade35b31a471fbde2cbb54156bf0520bcacda3bea93ef6d47e",
+          "sha256": "3530a45412f290ce6b43b0b4605330300a58f9728cd30ccb0be578506adf8888",
+          "sha1": "e438f2d3fbd928dc7caf5973e5f504c754028f06",
+          "md5": "23c6c05003670be0b5c029a2dd7150b3"
+        }
+      ]
+    },
+    {
+      "name": "realReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk",
+          "version": {
+            "requires": "2.5.10"
+          }
+        },
+        {
+          "group": "com.unity3d.ads-mediation",
+          "module": "mediation-sdk",
+          "version": {
+            "requires": "8.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "levelplay-sdk-8.7.0.2.aar",
+          "url": "levelplay-sdk-8.7.0.2.aar",
+          "size": 18451,
+          "sha512": "1c84b043d260ba18845b94d85f6f21fd3ac91fd79c6e6dae9424441dd8646ea8b8e1312aea0bebade35b31a471fbde2cbb54156bf0520bcacda3bea93ef6d47e",
+          "sha256": "3530a45412f290ce6b43b0b4605330300a58f9728cd30ccb0be578506adf8888",
+          "sha1": "e438f2d3fbd928dc7caf5973e5f504c754028f06",
+          "md5": "23c6c05003670be0b5c029a2dd7150b3"
+        }
+      ]
+    }
+  ]
+}
