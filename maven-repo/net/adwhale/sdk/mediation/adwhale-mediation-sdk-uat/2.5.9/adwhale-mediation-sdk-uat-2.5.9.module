@@ -26,11 +26,11 @@
         {
           "name": "adwhale-mediation-sdk-uat-2.5.9.aar",
           "url": "adwhale-mediation-sdk-uat-2.5.9.aar",
-          "size": 114775,
-          "sha512": "2007c8a318f4978d82b893c1417c4fc1605b2058f745021f6ba8225bbc53e3177689a3bde4df17ec36d5d87a6ec46111069ecec8c1f14a11974d32cbce2aeca0",
-          "sha256": "bd6c31c9e2e590e9fdee8c804e867d6e2563e6a4d1e8a218a11025449e38d106",
-          "sha1": "df572c2d927ef94fc3c145cb84809b98827de774",
-          "md5": "a1d8ad0869dc1fc8153a4df8f2481c39"
+          "size": 114837,
+          "sha512": "a98de20fa233d90f48fbcead682f54c16d027c2f12b316244872703c893a9c1c8c0d46a1a6357995000fcf4050303ae17bfdf79e4558b7ec7d9ca812f5a30fbe",
+          "sha256": "a9d92fe4bf46bbcf6df384285e89e3dbbbbeecad0fe3db8a688ad6bde1fadd2a",
+          "sha1": "72bcf15822a83e199b6b6a99c12070cc51d2b57e",
+          "md5": "c9c018bf21e62fdd94526a8a876f9a81"
         }
       ]
     },
@@ -125,11 +125,11 @@
         {
           "name": "adwhale-mediation-sdk-uat-2.5.9.aar",
           "url": "adwhale-mediation-sdk-uat-2.5.9.aar",
-          "size": 114775,
-          "sha512": "2007c8a318f4978d82b893c1417c4fc1605b2058f745021f6ba8225bbc53e3177689a3bde4df17ec36d5d87a6ec46111069ecec8c1f14a11974d32cbce2aeca0",
-          "sha256": "bd6c31c9e2e590e9fdee8c804e867d6e2563e6a4d1e8a218a11025449e38d106",
-          "sha1": "df572c2d927ef94fc3c145cb84809b98827de774",
-          "md5": "a1d8ad0869dc1fc8153a4df8f2481c39"
+          "size": 114837,
+          "sha512": "a98de20fa233d90f48fbcead682f54c16d027c2f12b316244872703c893a9c1c8c0d46a1a6357995000fcf4050303ae17bfdf79e4558b7ec7d9ca812f5a30fbe",
+          "sha256": "a9d92fe4bf46bbcf6df384285e89e3dbbbbeecad0fe3db8a688ad6bde1fadd2a",
+          "sha1": "72bcf15822a83e199b6b6a99c12070cc51d2b57e",
+          "md5": "c9c018bf21e62fdd94526a8a876f9a81"
         }
       ]
     }
