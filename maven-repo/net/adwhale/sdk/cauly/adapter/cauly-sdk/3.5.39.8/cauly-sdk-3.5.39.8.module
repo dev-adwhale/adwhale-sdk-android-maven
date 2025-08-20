@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.cauly.adapter",
+    "module": "cauly-sdk",
+    "version": "3.5.39.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "realReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "cauly-sdk-3.5.39.8.aar",
+          "url": "cauly-sdk-3.5.39.8.aar",
+          "size": 17287,
+          "sha512": "2c73c8dec37f990de2ec23be0a7f282a26c16d47b2a55d60a7ada8297bc4b377fad17fc11acbb3cda59a1dc27af72716b427c2e9d46c13c77c142eadc04f65f4",
+          "sha256": "b8c98b575a236ec95a21d43c808375f5361e6ac4f60af34bd4e73a5571be4d55",
+          "sha1": "27f7ce2f782a8924d0eaa51238fe73fbb1a82ff3",
+          "md5": "fad6454261d1980e25757bbf104982b6"
+        }
+      ]
+    },
+    {
+      "name": "realReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk",
+          "version": {
+            "requires": "2.5.10"
+          }
+        },
+        {
+          "group": "com.fsn.cauly",
+          "module": "cauly-sdk",
+          "version": {
+            "requires": "3.5.39"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cauly-sdk-3.5.39.8.aar",
+          "url": "cauly-sdk-3.5.39.8.aar",
+          "size": 17287,
+          "sha512": "2c73c8dec37f990de2ec23be0a7f282a26c16d47b2a55d60a7ada8297bc4b377fad17fc11acbb3cda59a1dc27af72716b427c2e9d46c13c77c142eadc04f65f4",
+          "sha256": "b8c98b575a236ec95a21d43c808375f5361e6ac4f60af34bd4e73a5571be4d55",
+          "sha1": "27f7ce2f782a8924d0eaa51238fe73fbb1a82ff3",
+          "md5": "fad6454261d1980e25757bbf104982b6"
+        }
+      ]
+    }
+  ]
+}
