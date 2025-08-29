@@ -26,11 +26,11 @@
         {
           "name": "levelplay-sdk-uat-8.7.0.2.aar",
           "url": "levelplay-sdk-uat-8.7.0.2.aar",
-          "size": 23542,
-          "sha512": "2d6225f45c822cc550648718dddf9834f4d864449b12588792c87a8dc77699fe5044b73314a3a29304e9cf740d66c69a9e7cc91f58e3a974c57002bb7006c5b4",
-          "sha256": "9226ebcce1302095d987cc3a1f9bf73af82595ecd3542bd0690c8b17da033778",
-          "sha1": "ac55d033d0c77205981e9e5b1e2876a5729da326",
-          "md5": "2d9b67983735bc1d8c6c7658e06edfc1"
+          "size": 26306,
+          "sha512": "d2cabd9a7626f6075b92301b31240f183ce202f501c862132cbe89794dae254d02f488f27b1e9cb8d929e36c3f42bec1c23b0b8466b234c2c303080723a5b595",
+          "sha256": "96ede16adb33b089d101d4a6a9b9f7583a95aa5312b721d9073b4e2d3d0bdf31",
+          "sha1": "0d9d77cf4304f708f8918c313659dd8ab25fd929",
+          "md5": "e86d264dd39454e8e8fce9c9563ec39b"
         }
       ]
     },
@@ -62,11 +62,11 @@
         {
           "name": "levelplay-sdk-uat-8.7.0.2.aar",
           "url": "levelplay-sdk-uat-8.7.0.2.aar",
-          "size": 23542,
-          "sha512": "2d6225f45c822cc550648718dddf9834f4d864449b12588792c87a8dc77699fe5044b73314a3a29304e9cf740d66c69a9e7cc91f58e3a974c57002bb7006c5b4",
-          "sha256": "9226ebcce1302095d987cc3a1f9bf73af82595ecd3542bd0690c8b17da033778",
-          "sha1": "ac55d033d0c77205981e9e5b1e2876a5729da326",
-          "md5": "2d9b67983735bc1d8c6c7658e06edfc1"
+          "size": 26306,
+          "sha512": "d2cabd9a7626f6075b92301b31240f183ce202f501c862132cbe89794dae254d02f488f27b1e9cb8d929e36c3f42bec1c23b0b8466b234c2c303080723a5b595",
+          "sha256": "96ede16adb33b089d101d4a6a9b9f7583a95aa5312b721d9073b4e2d3d0bdf31",
+          "sha1": "0d9d77cf4304f708f8918c313659dd8ab25fd929",
+          "md5": "e86d264dd39454e8e8fce9c9563ec39b"
         }
       ]
     }
