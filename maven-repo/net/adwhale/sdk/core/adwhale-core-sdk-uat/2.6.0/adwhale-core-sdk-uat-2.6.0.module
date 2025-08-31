@@ -27,10 +27,10 @@
           "name": "adwhale-core-sdk-uat-2.6.0.aar",
           "url": "adwhale-core-sdk-uat-2.6.0.aar",
           "size": 40253,
-          "sha512": "3eb7ba123a228684833e7f8d236b139a2506b2a7438ab0d510bcf511fb050cc9bce61c459d4b1d1d7dc1b3ec8a1f8b80b9f7fc033a7a7b01235015293afe3d6d",
-          "sha256": "ff629e2a898ecee59367657c613800cbd8e11d097d0c3f77cafca6d6d0e8eaea",
-          "sha1": "253e0df151743244fdb3c36338dfd864278ff935",
-          "md5": "5d0eac65937e3fc07bbb32d6e674a9fb"
+          "sha512": "cb5e92cdd6b388898dae03a38e4f52227e48f8d3f8dfcb5afa3b90b445827f28b0afa4e97f0ffd60b5c19b26c586e68f8a7a89ca6a8b4cbe987bd669d711fc75",
+          "sha256": "0a4a1cc23d92dcc690244467740c14adf3bc53dc29dd44501cbf4209fd8a083d",
+          "sha1": "74a6dd1401be29bb87a6c8e6245f4a1375b0e7f1",
+          "md5": "eff0b8783cbcbb29ed3390cc4e854efe"
         }
       ]
     },
@@ -77,10 +77,10 @@
           "name": "adwhale-core-sdk-uat-2.6.0.aar",
           "url": "adwhale-core-sdk-uat-2.6.0.aar",
           "size": 40253,
-          "sha512": "3eb7ba123a228684833e7f8d236b139a2506b2a7438ab0d510bcf511fb050cc9bce61c459d4b1d1d7dc1b3ec8a1f8b80b9f7fc033a7a7b01235015293afe3d6d",
-          "sha256": "ff629e2a898ecee59367657c613800cbd8e11d097d0c3f77cafca6d6d0e8eaea",
-          "sha1": "253e0df151743244fdb3c36338dfd864278ff935",
-          "md5": "5d0eac65937e3fc07bbb32d6e674a9fb"
+          "sha512": "cb5e92cdd6b388898dae03a38e4f52227e48f8d3f8dfcb5afa3b90b445827f28b0afa4e97f0ffd60b5c19b26c586e68f8a7a89ca6a8b4cbe987bd669d711fc75",
+          "sha256": "0a4a1cc23d92dcc690244467740c14adf3bc53dc29dd44501cbf4209fd8a083d",
+          "sha1": "74a6dd1401be29bb87a6c8e6245f4a1375b0e7f1",
+          "md5": "eff0b8783cbcbb29ed3390cc4e854efe"
         }
       ]
     }
