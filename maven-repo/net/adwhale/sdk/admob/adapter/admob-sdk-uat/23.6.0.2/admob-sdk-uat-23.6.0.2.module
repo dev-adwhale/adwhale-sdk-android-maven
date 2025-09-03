@@ -26,11 +26,11 @@
         {
           "name": "admob-sdk-uat-23.6.0.2.aar",
           "url": "admob-sdk-uat-23.6.0.2.aar",
-          "size": 83241,
-          "sha512": "33caa05d9a4e606785f768080fa057fda032b39cbc41559a902d94d30b172391ac235ebcfecec08bfbffe640352d237268048c27e6510315f16f89bd4ad8bbbc",
-          "sha256": "2005f191c8080428ea8613bd8c72cf76fbc2d34ae4b107b603977dea7a7c9ce2",
-          "sha1": "6e4daccbc22121348623cc3acc31c5e770e31ec7",
-          "md5": "b9212eaf30a2bba0b9c527113448be54"
+          "size": 83051,
+          "sha512": "94d31f0fb263b698bfcda38f6a75e6c52dc51ebf3b5baf7685926ec86c20b4edabee75c3c7f8260510272688bf3fa8172a535657785f5830ce8a0c878e9b2149",
+          "sha256": "75e93e0ddec30717086abf55d659f90a549970058c18344c53a642727f8aab8b",
+          "sha1": "2c77868054e9fb4fb7f0ee69eaeb5f0db1c527b8",
+          "md5": "5d2f299a583017481e8c2f42317c2ccc"
         }
       ]
     },
@@ -69,11 +69,11 @@
         {
           "name": "admob-sdk-uat-23.6.0.2.aar",
           "url": "admob-sdk-uat-23.6.0.2.aar",
-          "size": 83241,
-          "sha512": "33caa05d9a4e606785f768080fa057fda032b39cbc41559a902d94d30b172391ac235ebcfecec08bfbffe640352d237268048c27e6510315f16f89bd4ad8bbbc",
-          "sha256": "2005f191c8080428ea8613bd8c72cf76fbc2d34ae4b107b603977dea7a7c9ce2",
-          "sha1": "6e4daccbc22121348623cc3acc31c5e770e31ec7",
-          "md5": "b9212eaf30a2bba0b9c527113448be54"
+          "size": 83051,
+          "sha512": "94d31f0fb263b698bfcda38f6a75e6c52dc51ebf3b5baf7685926ec86c20b4edabee75c3c7f8260510272688bf3fa8172a535657785f5830ce8a0c878e9b2149",
+          "sha256": "75e93e0ddec30717086abf55d659f90a549970058c18344c53a642727f8aab8b",
+          "sha1": "2c77868054e9fb4fb7f0ee69eaeb5f0db1c527b8",
+          "md5": "5d2f299a583017481e8c2f42317c2ccc"
         }
       ]
     }
