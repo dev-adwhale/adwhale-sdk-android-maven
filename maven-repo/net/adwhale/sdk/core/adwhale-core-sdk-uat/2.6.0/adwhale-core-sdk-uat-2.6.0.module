@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.core",
+    "module": "adwhale-core-sdk-uat",
+    "version": "2.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "uatDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "adwhale-core-sdk-uat-2.6.0.aar",
+          "url": "adwhale-core-sdk-uat-2.6.0.aar",
+          "size": 40357,
+          "sha512": "0cb72e2debd81a5a7f34e11480330cc273a91912a8d7878fefb0d5278f4df133b2b9e3bf915125d811205ed4aa9265564ebe06c3eadf700e2d3b6e1361562b3b",
+          "sha256": "53ceb3012feae499bdbd0ccda6b46391c3bd3e11345179c6fbc6b30b58aa72d3",
+          "sha1": "42974c77ea7530b9447c07ea84a8bb1efe143a32",
+          "md5": "652bb6e252a3536184b04a6c7852ef33"
+        }
+      ]
+    },
+    {
+      "name": "uatDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "18.0.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-appset",
+          "version": {
+            "requires": "16.0.2"
+          }
+        },
+        {
+          "group": "com.google.android.ump",
+          "module": "user-messaging-platform",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adwhale-core-sdk-uat-2.6.0.aar",
+          "url": "adwhale-core-sdk-uat-2.6.0.aar",
+          "size": 40357,
+          "sha512": "0cb72e2debd81a5a7f34e11480330cc273a91912a8d7878fefb0d5278f4df133b2b9e3bf915125d811205ed4aa9265564ebe06c3eadf700e2d3b6e1361562b3b",
+          "sha256": "53ceb3012feae499bdbd0ccda6b46391c3bd3e11345179c6fbc6b30b58aa72d3",
+          "sha1": "42974c77ea7530b9447c07ea84a8bb1efe143a32",
+          "md5": "652bb6e252a3536184b04a6c7852ef33"
+        }
+      ]
+    }
+  ]
+}
