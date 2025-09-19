@@ -26,11 +26,11 @@
         {
           "name": "adwhale-mediation-sdk-2.6.0.aar",
           "url": "adwhale-mediation-sdk-2.6.0.aar",
-          "size": 90940,
-          "sha512": "efe25010820f237c0c7bffdce0a15d44e8475206b9494f495afbbfd5c23f5ff24d9318ed54e6a6c7bc66c1184100d597d9f8ded1a5236b1d8f05624a8683c7c9",
-          "sha256": "693331522557c0d1739984fb3cdd92ec038a06b846f9f27671a62df5b31710a3",
-          "sha1": "a541265dcb3a2d27733f707af469964321675c0d",
-          "md5": "34c8ff9f72813bcd18129e2437049d1a"
+          "size": 89262,
+          "sha512": "5eb5c4b26f02e9cd34ec294859ff3f48a188c412f242bbcc763c0ed6906d19475c9b36406d548a86afae2aac47d69174217454077ddd3fefc9c65556defaab1a",
+          "sha256": "1c85e25e7c0ae32223778722d53aaaa45f36626277adb3f9d88df1073f6da00b",
+          "sha1": "47d071275e04843954dcfe113e336c61ffd56215",
+          "md5": "e28412a63b5b07a7e2f991d9889c54a1"
         }
       ]
     },
@@ -125,11 +125,11 @@
         {
           "name": "adwhale-mediation-sdk-2.6.0.aar",
           "url": "adwhale-mediation-sdk-2.6.0.aar",
-          "size": 90940,
-          "sha512": "efe25010820f237c0c7bffdce0a15d44e8475206b9494f495afbbfd5c23f5ff24d9318ed54e6a6c7bc66c1184100d597d9f8ded1a5236b1d8f05624a8683c7c9",
-          "sha256": "693331522557c0d1739984fb3cdd92ec038a06b846f9f27671a62df5b31710a3",
-          "sha1": "a541265dcb3a2d27733f707af469964321675c0d",
-          "md5": "34c8ff9f72813bcd18129e2437049d1a"
+          "size": 89262,
+          "sha512": "5eb5c4b26f02e9cd34ec294859ff3f48a188c412f242bbcc763c0ed6906d19475c9b36406d548a86afae2aac47d69174217454077ddd3fefc9c65556defaab1a",
+          "sha256": "1c85e25e7c0ae32223778722d53aaaa45f36626277adb3f9d88df1073f6da00b",
+          "sha1": "47d071275e04843954dcfe113e336c61ffd56215",
+          "md5": "e28412a63b5b07a7e2f991d9889c54a1"
         }
       ]
     }
