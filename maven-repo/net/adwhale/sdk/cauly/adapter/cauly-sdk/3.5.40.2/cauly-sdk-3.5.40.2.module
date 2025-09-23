@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.cauly.adapter",
+    "module": "cauly-sdk",
+    "version": "3.5.40.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "realReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "cauly-sdk-3.5.40.2.aar",
+          "url": "cauly-sdk-3.5.40.2.aar",
+          "size": 18975,
+          "sha512": "a8af0a4aad756ece8bb0884f925da63e31d2640b34398ea699be76af2bc15b013c0771b7da764f588cad71c515cf48542a3999f821560639b1bb9a0d40ef37df",
+          "sha256": "a920e8e35cd86fce8eab274da19e0db6bb9b1cd922b4fc15d9fc4f92828ed8d3",
+          "sha1": "99e99f4e496a77cf200d0adff331f10699bbf9c1",
+          "md5": "09ef32ba2f55f274f80525e004651a02"
+        }
+      ]
+    },
+    {
+      "name": "realReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "com.fsn.cauly",
+          "module": "cauly-sdk",
+          "version": {
+            "requires": "3.5.40"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cauly-sdk-3.5.40.2.aar",
+          "url": "cauly-sdk-3.5.40.2.aar",
+          "size": 18975,
+          "sha512": "a8af0a4aad756ece8bb0884f925da63e31d2640b34398ea699be76af2bc15b013c0771b7da764f588cad71c515cf48542a3999f821560639b1bb9a0d40ef37df",
+          "sha256": "a920e8e35cd86fce8eab274da19e0db6bb9b1cd922b4fc15d9fc4f92828ed8d3",
+          "sha1": "99e99f4e496a77cf200d0adff331f10699bbf9c1",
+          "md5": "09ef32ba2f55f274f80525e004651a02"
+        }
+      ]
+    }
+  ]
+}
