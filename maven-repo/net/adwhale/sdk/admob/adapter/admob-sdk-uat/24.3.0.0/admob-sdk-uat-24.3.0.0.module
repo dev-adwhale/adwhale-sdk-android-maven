@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.admob.adapter",
+    "module": "admob-sdk-uat",
+    "version": "24.3.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "uatDebugVariantUatDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "admob-sdk-uat-24.3.0.0.aar",
+          "url": "admob-sdk-uat-24.3.0.0.aar",
+          "size": 156245,
+          "sha512": "76256298927f9b5f19953ce9ab96c480dd71b96dad90ce8f47d485760cb3083b679e1181101c1dd3c7261f91f2227f67b3e92f0c03f04459d0617e58f70e3516",
+          "sha256": "246a9d3bef2eba8712a92db677536096a112a56f2a3f3e5ea87900591a5cd990",
+          "sha1": "b538f2c45d84ac660379caa8a1b5048c1ace04da",
+          "md5": "803b7c1e40593c432aed0e40240eb861"
+        }
+      ]
+    },
+    {
+      "name": "uatDebugVariantUatDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk-uat",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "24.3.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "admob-sdk-uat-24.3.0.0.aar",
+          "url": "admob-sdk-uat-24.3.0.0.aar",
+          "size": 156245,
+          "sha512": "76256298927f9b5f19953ce9ab96c480dd71b96dad90ce8f47d485760cb3083b679e1181101c1dd3c7261f91f2227f67b3e92f0c03f04459d0617e58f70e3516",
+          "sha256": "246a9d3bef2eba8712a92db677536096a112a56f2a3f3e5ea87900591a5cd990",
+          "sha1": "b538f2c45d84ac660379caa8a1b5048c1ace04da",
+          "md5": "803b7c1e40593c432aed0e40240eb861"
+        }
+      ]
+    },
+    {
+      "name": "uatDebugVariantUatDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "admob-sdk-uat-24.3.0.0-sources.jar",
+          "url": "admob-sdk-uat-24.3.0.0-sources.jar",
+          "size": 50940,
+          "sha512": "eca1826a7708a42e665763e7584965ad91c4817ca14566989ecad62254accf707b7d845892882f7965300420e2789761c6d30e3952d7131ee5cbd8e425fa42be",
+          "sha256": "a0a041affeebd27de99afffe62bc6c141805b39e5b41fd2296744936af7ca022",
+          "sha1": "054bc554a594e2788a97bf29167f581a7457c969",
+          "md5": "493c681ae0cd060516468e20e44763e1"
+        }
+      ]
+    }
+  ]
+}
