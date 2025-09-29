@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.cauly.adapter",
+    "module": "cauly-sdk-uat",
+    "version": "3.5.40.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "uatDebugVariantUatDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "cauly-sdk-uat-3.5.40.2.aar",
+          "url": "cauly-sdk-uat-3.5.40.2.aar",
+          "size": 39118,
+          "sha512": "eccc8c4083533b5caf00d25755e85a6d062e1e768cb0561e7ba38c376152051d835ba50750dc2f245104a6cf91882cf634e86b4f99db1b4d430f18acafeaf788",
+          "sha256": "0c7b9e52dad82be2a48bf87264f862e0a8a3f1f11bddc2e23aa3bb67fabed64b",
+          "sha1": "799a356a064e891d72a7b2b5665cb19eebba7704",
+          "md5": "54838809a87a6cfbaa3a503fefd7a37d"
+        }
+      ]
+    },
+    {
+      "name": "uatDebugVariantUatDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk-uat",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "com.fsn.cauly",
+          "module": "cauly-sdk-uat",
+          "version": {
+            "requires": "3.5.40"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cauly-sdk-uat-3.5.40.2.aar",
+          "url": "cauly-sdk-uat-3.5.40.2.aar",
+          "size": 39118,
+          "sha512": "eccc8c4083533b5caf00d25755e85a6d062e1e768cb0561e7ba38c376152051d835ba50750dc2f245104a6cf91882cf634e86b4f99db1b4d430f18acafeaf788",
+          "sha256": "0c7b9e52dad82be2a48bf87264f862e0a8a3f1f11bddc2e23aa3bb67fabed64b",
+          "sha1": "799a356a064e891d72a7b2b5665cb19eebba7704",
+          "md5": "54838809a87a6cfbaa3a503fefd7a37d"
+        }
+      ]
+    },
+    {
+      "name": "uatDebugVariantUatDebugSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "cauly-sdk-uat-3.5.40.2-sources.jar",
+          "url": "cauly-sdk-uat-3.5.40.2-sources.jar",
+          "size": 13996,
+          "sha512": "359b7139882975294a5f8bbedd56a2d3f9dfbc101202b6dcccf8fbc7e45f769cb82184032db4b1249dd4a4d433a2417431de0ffaa2f90c0391f8aa47fc5e2885",
+          "sha256": "de46da4a3c5899540da4756537b1b28adf387cd1945a36e07a6fadde995b7a14",
+          "sha1": "c38a458198315f70aa44629f908acd0ec43ed9bc",
+          "md5": "bc40aa1b893822013109ebfc01ca775c"
+        }
+      ]
+    }
+  ]
+}
