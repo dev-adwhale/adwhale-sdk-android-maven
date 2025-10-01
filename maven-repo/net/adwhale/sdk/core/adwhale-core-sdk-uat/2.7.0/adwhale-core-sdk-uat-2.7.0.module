@@ -10,12 +10,12 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.0.2"
+      "version": "7.4"
     }
   },
   "variants": [
     {
-      "name": "uatDebugVariantUatDebugApiPublication",
+      "name": "uatDebugApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -26,16 +26,16 @@
         {
           "name": "adwhale-core-sdk-uat-2.7.0.aar",
           "url": "adwhale-core-sdk-uat-2.7.0.aar",
-          "size": 47447,
-          "sha512": "d5879e9de8d3fa2f44820799897acb92e964805f95882bac21006dbd6b75a37143f912d8f5a1334d78b28fa50a4915cc2f902f5265af22f7c791611c7b3ec027",
-          "sha256": "c88d87c9d0c78ea8764ebe7d71e279d844229972eacb171258233a8ae99ab2d9",
-          "sha1": "1a75f09df55f341a49301d74702ab5a7430b50f2",
-          "md5": "ae4c2cf05fc1e7bfb65bde5e85f0d6ad"
+          "size": 46661,
+          "sha512": "d9fbdb3fc4f2995c0245abcff7fcc3fbe9f966f070e3199a23299c6c71ba691eb81b3e2fea3556496ddcdf4215c65de0de550dba7f2311a2d010e9e7fdd29581",
+          "sha256": "60f70a663e27cbd1ef4af6183d401a12a241dddea3ca94f7b62f331e3015dbb0",
+          "sha1": "d1144af90a616712d4c4fd2b67706c8d2ad93899",
+          "md5": "2eede1bd85ace24abf9e6fc372a8cf45"
         }
       ]
     },
     {
-      "name": "uatDebugVariantUatDebugRuntimePublication",
+      "name": "uatDebugRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -76,31 +76,11 @@
         {
           "name": "adwhale-core-sdk-uat-2.7.0.aar",
           "url": "adwhale-core-sdk-uat-2.7.0.aar",
-          "size": 47447,
-          "sha512": "d5879e9de8d3fa2f44820799897acb92e964805f95882bac21006dbd6b75a37143f912d8f5a1334d78b28fa50a4915cc2f902f5265af22f7c791611c7b3ec027",
-          "sha256": "c88d87c9d0c78ea8764ebe7d71e279d844229972eacb171258233a8ae99ab2d9",
-          "sha1": "1a75f09df55f341a49301d74702ab5a7430b50f2",
-          "md5": "ae4c2cf05fc1e7bfb65bde5e85f0d6ad"
-        }
-      ]
-    },
-    {
-      "name": "uatDebugVariantUatDebugSourcePublication",
-      "attributes": {
-        "org.gradle.category": "documentation",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.docstype": "sources",
-        "org.gradle.usage": "java-runtime"
-      },
-      "files": [
-        {
-          "name": "adwhale-core-sdk-uat-2.7.0-sources.jar",
-          "url": "adwhale-core-sdk-uat-2.7.0-sources.jar",
-          "size": 31424,
-          "sha512": "67910d7cab0d148c79f009a3818e3cd66af1f1254a4ab2261c85d0bd791ab94b318dc5a97b1a3af6cc5dff94ca2e5a5bafff2eaf27d50d640dee751ef6c37c6f",
-          "sha256": "1851ffd4d05c4e7d678af840a59e77f887da64ae76cda36ff7f20d846b89a406",
-          "sha1": "4b4a45ae45899f487aa685b6457bdf3eb145e8c2",
-          "md5": "2d3b0d12b72017b81c32419801614968"
+          "size": 46661,
+          "sha512": "d9fbdb3fc4f2995c0245abcff7fcc3fbe9f966f070e3199a23299c6c71ba691eb81b3e2fea3556496ddcdf4215c65de0de550dba7f2311a2d010e9e7fdd29581",
+          "sha256": "60f70a663e27cbd1ef4af6183d401a12a241dddea3ca94f7b62f331e3015dbb0",
+          "sha1": "d1144af90a616712d4c4fd2b67706c8d2ad93899",
+          "md5": "2eede1bd85ace24abf9e6fc372a8cf45"
         }
       ]
     }
