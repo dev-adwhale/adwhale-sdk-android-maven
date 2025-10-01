@@ -26,11 +26,11 @@
         {
           "name": "adfit-sdk-uat-3.17.2.3.aar",
           "url": "adfit-sdk-uat-3.17.2.3.aar",
-          "size": 15599,
-          "sha512": "c9c76339ab9597e7a927ee036e160dbf9bfd607fdda887d6abbd94b995990f47652fe853a23ed53ffe314914dd9fd72d6c84edb4f9418a81729f9666866c8bbf",
-          "sha256": "e32f7c6b10e88daa213487fd776da07a480485a9dbb4c5c0f45ebc444c8bcfca",
-          "sha1": "a8e911d42a4f6f0807d2e4e6da7ace43d25e9fe3",
-          "md5": "2f352d7d0ad44c66cc80b871125843b5"
+          "size": 15608,
+          "sha512": "68db9c1a456028f176a7d639685a3c40ed61ec475c3e32cb0aa0cc90d778342e3cdf58a5e1ca56039b52df30ca8f4ec7edb5642174535e09dd103e480d410dca",
+          "sha256": "d0f4a27af15e2f0c060a10cf51a6f03bdc80d95e8db5ebd4c105382fca68bc46",
+          "sha1": "15e55d9aa19d5b5f3c54dc575cdaec7c46b9c41f",
+          "md5": "8508b69c1c41b45dc07126d475296f3a"
         }
       ]
     },
@@ -62,11 +62,11 @@
         {
           "name": "adfit-sdk-uat-3.17.2.3.aar",
           "url": "adfit-sdk-uat-3.17.2.3.aar",
-          "size": 15599,
-          "sha512": "c9c76339ab9597e7a927ee036e160dbf9bfd607fdda887d6abbd94b995990f47652fe853a23ed53ffe314914dd9fd72d6c84edb4f9418a81729f9666866c8bbf",
-          "sha256": "e32f7c6b10e88daa213487fd776da07a480485a9dbb4c5c0f45ebc444c8bcfca",
-          "sha1": "a8e911d42a4f6f0807d2e4e6da7ace43d25e9fe3",
-          "md5": "2f352d7d0ad44c66cc80b871125843b5"
+          "size": 15608,
+          "sha512": "68db9c1a456028f176a7d639685a3c40ed61ec475c3e32cb0aa0cc90d778342e3cdf58a5e1ca56039b52df30ca8f4ec7edb5642174535e09dd103e480d410dca",
+          "sha256": "d0f4a27af15e2f0c060a10cf51a6f03bdc80d95e8db5ebd4c105382fca68bc46",
+          "sha1": "15e55d9aa19d5b5f3c54dc575cdaec7c46b9c41f",
+          "md5": "8508b69c1c41b45dc07126d475296f3a"
         }
       ]
     }
