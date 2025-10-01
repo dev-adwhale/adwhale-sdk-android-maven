@@ -26,11 +26,11 @@
         {
           "name": "adfit-sdk-3.17.2.3.aar",
           "url": "adfit-sdk-3.17.2.3.aar",
-          "size": 13778,
-          "sha512": "a2dcc8b3146f221f538875bca8cf4532a2c2f34370bd93916aab2d4f1d70943e9cefbdc81ffe468767801c644aebba5f8587ac9bb6543405bfcc295ca9c0101c",
-          "sha256": "332a6e6fe7c6625c7e058b978f6d51072a7d22cf35d1c2a1fba335fce4413f19",
-          "sha1": "8119835fb72966bb6977ea9b6dfc350386b26364",
-          "md5": "736ae4de3474c40595d5fff32cc68a39"
+          "size": 13784,
+          "sha512": "f235047dfada70bc8aad06f037d983789957729f35901c50680d60af9f83fc8bbb2e4512927a7e58667ee58e59ae1eaf587600ca72c3e5800e55b1aaaae156b9",
+          "sha256": "9660f6b5752cf0959ee13d086545845f16d0052b1e53f12497acb9c957638bf8",
+          "sha1": "0f85c965f0b54560f475905ccf2ae6ecfea7c41f",
+          "md5": "664380c1851068816876cac7b38e0afe"
         }
       ]
     },
@@ -62,11 +62,11 @@
         {
           "name": "adfit-sdk-3.17.2.3.aar",
           "url": "adfit-sdk-3.17.2.3.aar",
-          "size": 13778,
-          "sha512": "a2dcc8b3146f221f538875bca8cf4532a2c2f34370bd93916aab2d4f1d70943e9cefbdc81ffe468767801c644aebba5f8587ac9bb6543405bfcc295ca9c0101c",
-          "sha256": "332a6e6fe7c6625c7e058b978f6d51072a7d22cf35d1c2a1fba335fce4413f19",
-          "sha1": "8119835fb72966bb6977ea9b6dfc350386b26364",
-          "md5": "736ae4de3474c40595d5fff32cc68a39"
+          "size": 13784,
+          "sha512": "f235047dfada70bc8aad06f037d983789957729f35901c50680d60af9f83fc8bbb2e4512927a7e58667ee58e59ae1eaf587600ca72c3e5800e55b1aaaae156b9",
+          "sha256": "9660f6b5752cf0959ee13d086545845f16d0052b1e53f12497acb9c957638bf8",
+          "sha1": "0f85c965f0b54560f475905ccf2ae6ecfea7c41f",
+          "md5": "664380c1851068816876cac7b38e0afe"
         }
       ]
     }
