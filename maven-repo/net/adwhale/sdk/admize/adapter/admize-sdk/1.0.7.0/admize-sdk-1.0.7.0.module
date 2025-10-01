@@ -26,11 +26,11 @@
         {
           "name": "admize-sdk-1.0.7.0.aar",
           "url": "admize-sdk-1.0.7.0.aar",
-          "size": 30728,
-          "sha512": "49d25b6faeb1bb7e8979c242402a7ab10c9118029242c9c8c211b08b9cb5dd1f68d64dd0a204d48328da0d81f395494706907b6af097b4d7a8ec9247b9913502",
-          "sha256": "0f31736dac0e83ea9fd37f05a90ec64fb7b6cd9589d92ed765615992b4ae440f",
-          "sha1": "8fbc6fa06720be20304b03eb54a2c1f31733fb28",
-          "md5": "20637067075d0b124df997f24a7a024e"
+          "size": 30732,
+          "sha512": "5d7a893cda1144a5b2c84ba2983e8e18886a8ac5b0cd659dff8fa7d9ad89504cab219c26d7f55ed595daf8ea035119f247a003158cb25341cbc8d91da408376d",
+          "sha256": "197236741334215228fe5d4fbf74fb911a2633e30ef43ea30837684d4c4e1f1c",
+          "sha1": "d3713137d9cfc703b76763fc27d7f6297af67814",
+          "md5": "d825f93f9aa805131e05493050785c2b"
         }
       ]
     },
@@ -62,11 +62,11 @@
         {
           "name": "admize-sdk-1.0.7.0.aar",
           "url": "admize-sdk-1.0.7.0.aar",
-          "size": 30728,
-          "sha512": "49d25b6faeb1bb7e8979c242402a7ab10c9118029242c9c8c211b08b9cb5dd1f68d64dd0a204d48328da0d81f395494706907b6af097b4d7a8ec9247b9913502",
-          "sha256": "0f31736dac0e83ea9fd37f05a90ec64fb7b6cd9589d92ed765615992b4ae440f",
-          "sha1": "8fbc6fa06720be20304b03eb54a2c1f31733fb28",
-          "md5": "20637067075d0b124df997f24a7a024e"
+          "size": 30732,
+          "sha512": "5d7a893cda1144a5b2c84ba2983e8e18886a8ac5b0cd659dff8fa7d9ad89504cab219c26d7f55ed595daf8ea035119f247a003158cb25341cbc8d91da408376d",
+          "sha256": "197236741334215228fe5d4fbf74fb911a2633e30ef43ea30837684d4c4e1f1c",
+          "sha1": "d3713137d9cfc703b76763fc27d7f6297af67814",
+          "md5": "d825f93f9aa805131e05493050785c2b"
         }
       ]
     }
