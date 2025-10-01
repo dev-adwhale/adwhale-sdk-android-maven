@@ -26,11 +26,11 @@
         {
           "name": "levelplay-sdk-uat-8.7.0.4.aar",
           "url": "levelplay-sdk-uat-8.7.0.4.aar",
-          "size": 55118,
-          "sha512": "552cf3515ddb3367f595252240d842d0983713bc19f51a9657edc09e36c3dac5de1cd7891c33031648ab8846b52b3ffa2a31896a9daf9552ca83223756148a07",
-          "sha256": "ba0f3f2f4db0a7bd5dc61611230ef647bd0f84abc0939a9235dfafa45a3d97c0",
-          "sha1": "db534170185a2cb8047ad9e32dc5455e11564dc4",
-          "md5": "665ce9d9abbdf3ced32793e72510883e"
+          "size": 55124,
+          "sha512": "1fc703691206431cac81bd6072f553459134a4f3dfbb80fc20001a5ead804a60744ea7f58695217ff1df1073d67f423a2ee010ac84a31582ecd2f7675f91e5e6",
+          "sha256": "88406e7abd70ef76ab2122bd2ba783958c74153251694bae5054f242be66392e",
+          "sha1": "c6bcb9b769599d73dd3e483982615d3377f2ea89",
+          "md5": "a3f8b47bcfb7d859d3c470aa58c12bd4"
         }
       ]
     },
@@ -62,11 +62,11 @@
         {
           "name": "levelplay-sdk-uat-8.7.0.4.aar",
           "url": "levelplay-sdk-uat-8.7.0.4.aar",
-          "size": 55118,
-          "sha512": "552cf3515ddb3367f595252240d842d0983713bc19f51a9657edc09e36c3dac5de1cd7891c33031648ab8846b52b3ffa2a31896a9daf9552ca83223756148a07",
-          "sha256": "ba0f3f2f4db0a7bd5dc61611230ef647bd0f84abc0939a9235dfafa45a3d97c0",
-          "sha1": "db534170185a2cb8047ad9e32dc5455e11564dc4",
-          "md5": "665ce9d9abbdf3ced32793e72510883e"
+          "size": 55124,
+          "sha512": "1fc703691206431cac81bd6072f553459134a4f3dfbb80fc20001a5ead804a60744ea7f58695217ff1df1073d67f423a2ee010ac84a31582ecd2f7675f91e5e6",
+          "sha256": "88406e7abd70ef76ab2122bd2ba783958c74153251694bae5054f242be66392e",
+          "sha1": "c6bcb9b769599d73dd3e483982615d3377f2ea89",
+          "md5": "a3f8b47bcfb7d859d3c470aa58c12bd4"
         }
       ]
     }
