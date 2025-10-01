@@ -10,12 +10,12 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.0.2"
+      "version": "7.4"
     }
   },
   "variants": [
     {
-      "name": "uatDebugVariantUatDebugApiPublication",
+      "name": "uatDebugApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -26,16 +26,16 @@
         {
           "name": "admize-sdk-uat-1.0.7.0.aar",
           "url": "admize-sdk-uat-1.0.7.0.aar",
-          "size": 35706,
-          "sha512": "f78882881134415620c0d9c8e9909670b0d4c2bb8d0cd52b33fd0ac7a69b05dce60ebbfeb0f956d023fa7903f652ede3ac539d70fcc670e82373e44f6206da6a",
-          "sha256": "6e676e5ffdd5ffdb16423741a38f787c580802766ca662467a1540308b0b63d7",
-          "sha1": "5f65f86c5b9312c4b8cd9e08050efbc97b2df554",
-          "md5": "07ebbcd71d8b4beebde492e23cdb7459"
+          "size": 35232,
+          "sha512": "3fe2a4e5aa84dd92441d964f15bb4a91e70114d78c4d777a3c76ca33b0db83e8d2529fe91626952439bf0fad389ad4593123c0c4d0bccdba4ca79290c808b405",
+          "sha256": "add67c9e7ecd9a1b232a20ca4f30b0d1f68279ef02e235d97a731b66114f79b4",
+          "sha1": "e7c98efcc1b36fd6abbc0693333ed400a6f1a634",
+          "md5": "ab971bb3f308d275ca4c7642540496bc"
         }
       ]
     },
     {
-      "name": "uatDebugVariantUatDebugRuntimePublication",
+      "name": "uatDebugRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -62,31 +62,11 @@
         {
           "name": "admize-sdk-uat-1.0.7.0.aar",
           "url": "admize-sdk-uat-1.0.7.0.aar",
-          "size": 35706,
-          "sha512": "f78882881134415620c0d9c8e9909670b0d4c2bb8d0cd52b33fd0ac7a69b05dce60ebbfeb0f956d023fa7903f652ede3ac539d70fcc670e82373e44f6206da6a",
-          "sha256": "6e676e5ffdd5ffdb16423741a38f787c580802766ca662467a1540308b0b63d7",
-          "sha1": "5f65f86c5b9312c4b8cd9e08050efbc97b2df554",
-          "md5": "07ebbcd71d8b4beebde492e23cdb7459"
-        }
-      ]
-    },
-    {
-      "name": "uatDebugVariantUatDebugSourcePublication",
-      "attributes": {
-        "org.gradle.category": "documentation",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.docstype": "sources",
-        "org.gradle.usage": "java-runtime"
-      },
-      "files": [
-        {
-          "name": "admize-sdk-uat-1.0.7.0-sources.jar",
-          "url": "admize-sdk-uat-1.0.7.0-sources.jar",
-          "size": 11414,
-          "sha512": "1a5a1c7b412af35f9b96a9c1978e4ade274f4a17e0196121058577927c4c3b1e6400830dfbb11e6f3ae688909949fbb339cbee10fadc75f75723f39297ddc06c",
-          "sha256": "656444e14b89f7465dd2eeceeaf1cef13e7f4da7a18c7646e6ffcda0b00622dd",
-          "sha1": "aa09a4c0b12fb050900e72ada30f14ef632f3dd3",
-          "md5": "1adaf8ab1e11e575fde2a2f191640973"
+          "size": 35232,
+          "sha512": "3fe2a4e5aa84dd92441d964f15bb4a91e70114d78c4d777a3c76ca33b0db83e8d2529fe91626952439bf0fad389ad4593123c0c4d0bccdba4ca79290c808b405",
+          "sha256": "add67c9e7ecd9a1b232a20ca4f30b0d1f68279ef02e235d97a731b66114f79b4",
+          "sha1": "e7c98efcc1b36fd6abbc0693333ed400a6f1a634",
+          "md5": "ab971bb3f308d275ca4c7642540496bc"
         }
       ]
     }
