@@ -10,12 +10,12 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.0.2"
+      "version": "7.4"
     }
   },
   "variants": [
     {
-      "name": "uatDebugVariantUatDebugApiPublication",
+      "name": "uatDebugApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -26,16 +26,16 @@
         {
           "name": "adfit-sdk-uat-3.17.2.3.aar",
           "url": "adfit-sdk-uat-3.17.2.3.aar",
-          "size": 15778,
-          "sha512": "009bbeec197c865d44643201901f93ef00ec0daa9ca41916041184960d60981d335e60eaa7b353e798c4f31c8c3f44914356e558e15f4b92445fe47231fe3a66",
-          "sha256": "3305ff612cc6684d432df1272d61b89b01d11605c716974ca66593602e6b1010",
-          "sha1": "401bce8fd7ae6bd7bd8924c343087e4953a210a1",
-          "md5": "14dd50ecbe0301613ffb7c83d9b1370b"
+          "size": 15580,
+          "sha512": "fefd9c07465052f807788061f835353e8be01adffd7488c538fa4cf9ec1bd4ef9276e5e5989c80597aa31e0a928559d37b286ca31d65d658817901c7146542d6",
+          "sha256": "bc5184ef4c08c7f5f094639f0620f6f925ef1741e3ba0047f46d4d65a0a49f39",
+          "sha1": "124f7e5d48ecbfe9a1f277f37ecca76ac6776d2a",
+          "md5": "e7fc9ec54bd7c447823724670da8605e"
         }
       ]
     },
     {
-      "name": "uatDebugVariantUatDebugRuntimePublication",
+      "name": "uatDebugRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -62,31 +62,11 @@
         {
           "name": "adfit-sdk-uat-3.17.2.3.aar",
           "url": "adfit-sdk-uat-3.17.2.3.aar",
-          "size": 15778,
-          "sha512": "009bbeec197c865d44643201901f93ef00ec0daa9ca41916041184960d60981d335e60eaa7b353e798c4f31c8c3f44914356e558e15f4b92445fe47231fe3a66",
-          "sha256": "3305ff612cc6684d432df1272d61b89b01d11605c716974ca66593602e6b1010",
-          "sha1": "401bce8fd7ae6bd7bd8924c343087e4953a210a1",
-          "md5": "14dd50ecbe0301613ffb7c83d9b1370b"
-        }
-      ]
-    },
-    {
-      "name": "uatDebugVariantUatDebugSourcePublication",
-      "attributes": {
-        "org.gradle.category": "documentation",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.docstype": "sources",
-        "org.gradle.usage": "java-runtime"
-      },
-      "files": [
-        {
-          "name": "adfit-sdk-uat-3.17.2.3-sources.jar",
-          "url": "adfit-sdk-uat-3.17.2.3-sources.jar",
-          "size": 4569,
-          "sha512": "755ec90de8daa7dd5f0d0fb32a039cdf607672669dd8f3a99fb64836bf4dc8bc92de10a4f2ca8adde50def8cd5467e5610ac40cbb45e8059c90e606e73f5846b",
-          "sha256": "ace58f9a315bd030be88a0189bd4dd830cdeea33c6a145194481f8e29ca7277e",
-          "sha1": "b3b82c96b3e44e68e115fa62f488423d9e0889a0",
-          "md5": "98ef6ad822848d6b22268de84095c95c"
+          "size": 15580,
+          "sha512": "fefd9c07465052f807788061f835353e8be01adffd7488c538fa4cf9ec1bd4ef9276e5e5989c80597aa31e0a928559d37b286ca31d65d658817901c7146542d6",
+          "sha256": "bc5184ef4c08c7f5f094639f0620f6f925ef1741e3ba0047f46d4d65a0a49f39",
+          "sha1": "124f7e5d48ecbfe9a1f277f37ecca76ac6776d2a",
+          "md5": "e7fc9ec54bd7c447823724670da8605e"
         }
       ]
     }
