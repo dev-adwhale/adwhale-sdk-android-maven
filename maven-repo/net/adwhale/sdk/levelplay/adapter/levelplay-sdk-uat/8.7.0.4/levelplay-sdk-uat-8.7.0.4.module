@@ -10,12 +10,12 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.0.2"
+      "version": "7.4"
     }
   },
   "variants": [
     {
-      "name": "uatDebugVariantUatDebugApiPublication",
+      "name": "uatDebugApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -26,16 +26,16 @@
         {
           "name": "levelplay-sdk-uat-8.7.0.4.aar",
           "url": "levelplay-sdk-uat-8.7.0.4.aar",
-          "size": 56044,
-          "sha512": "6ebb0416c7c78d54a9c0373cfc21766d7c79078ef6501517aed7c7793f60b9658a413479fd4572579156734d91485ec22fa7b8e8ccc3f2f4caac5a1708bebe22",
-          "sha256": "9730ba33ee7d629596ee712519ed545918abe0f1e96636278e774287e3cbcf1d",
-          "sha1": "d1a230425a2cbe90c171adfbb99b54068ef339f6",
-          "md5": "9e789e9c3ddce2e3ae23be6260453f0b"
+          "size": 55097,
+          "sha512": "952d8d1c805ef06d8355c83959b3f3dabbd8120aa9d2c6a9f7fb0584174144769b907165be660583e55bc749aceefa53eaa6af64998bf060410fbc7af127b307",
+          "sha256": "da8a729e5f109b7de73ba041b7d63108dfd52a15a96395ef06f327b9d43e66bd",
+          "sha1": "10deff20c0aba41a3c6b71327d125b97fbb159cd",
+          "md5": "71e68fa5e67351d3e2f7281afcafb036"
         }
       ]
     },
     {
-      "name": "uatDebugVariantUatDebugRuntimePublication",
+      "name": "uatDebugRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -62,31 +62,11 @@
         {
           "name": "levelplay-sdk-uat-8.7.0.4.aar",
           "url": "levelplay-sdk-uat-8.7.0.4.aar",
-          "size": 56044,
-          "sha512": "6ebb0416c7c78d54a9c0373cfc21766d7c79078ef6501517aed7c7793f60b9658a413479fd4572579156734d91485ec22fa7b8e8ccc3f2f4caac5a1708bebe22",
-          "sha256": "9730ba33ee7d629596ee712519ed545918abe0f1e96636278e774287e3cbcf1d",
-          "sha1": "d1a230425a2cbe90c171adfbb99b54068ef339f6",
-          "md5": "9e789e9c3ddce2e3ae23be6260453f0b"
-        }
-      ]
-    },
-    {
-      "name": "uatDebugVariantUatDebugSourcePublication",
-      "attributes": {
-        "org.gradle.category": "documentation",
-        "org.gradle.dependency.bundling": "external",
-        "org.gradle.docstype": "sources",
-        "org.gradle.usage": "java-runtime"
-      },
-      "files": [
-        {
-          "name": "levelplay-sdk-uat-8.7.0.4-sources.jar",
-          "url": "levelplay-sdk-uat-8.7.0.4-sources.jar",
-          "size": 18444,
-          "sha512": "7ac037128fc6a2ceb5c880c499059546bd5a394fc79c22723fac46d7802c5bffea3c8d28be2cd91dc9578cca71988f283247c5e64eae79e30cfde0020d6c83b7",
-          "sha256": "40b1bb13c1e594eb98b5429228193089fe36b6825bdd0dd713c7e28f1d63e39a",
-          "sha1": "81b235f3bb3c624650972ab3d8606089a364c5ce",
-          "md5": "4da3d900ea7e6bf4d413f89507e6441c"
+          "size": 55097,
+          "sha512": "952d8d1c805ef06d8355c83959b3f3dabbd8120aa9d2c6a9f7fb0584174144769b907165be660583e55bc749aceefa53eaa6af64998bf060410fbc7af127b307",
+          "sha256": "da8a729e5f109b7de73ba041b7d63108dfd52a15a96395ef06f327b9d43e66bd",
+          "sha1": "10deff20c0aba41a3c6b71327d125b97fbb159cd",
+          "md5": "71e68fa5e67351d3e2f7281afcafb036"
         }
       ]
     }
