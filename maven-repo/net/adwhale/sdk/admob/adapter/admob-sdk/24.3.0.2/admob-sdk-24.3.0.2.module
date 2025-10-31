@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.admob.adapter",
+    "module": "admob-sdk",
+    "version": "24.3.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "realReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "admob-sdk-24.3.0.2.aar",
+          "url": "admob-sdk-24.3.0.2.aar",
+          "size": 133776,
+          "sha512": "5e8c908cdaa0f0de120b3c695154e2d8addd0774af324f0fe413c70d1c214c68acd17ee068fd822f05d4a2737e40f96091429ef2a2a385edaf261c142d262170",
+          "sha256": "cbe4adceca878d567670a6412f45aa41ed950e4e22baa6a857083aaa7b256c09",
+          "sha1": "4c57657a0ea61d7cd4f12a166943d06780ba3996",
+          "md5": "79689b2b5f2f7e506c1ab3f6b569af4d"
+        }
+      ]
+    },
+    {
+      "name": "realReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk",
+          "version": {
+            "requires": "2.7.2"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "24.3.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "admob-sdk-24.3.0.2.aar",
+          "url": "admob-sdk-24.3.0.2.aar",
+          "size": 133776,
+          "sha512": "5e8c908cdaa0f0de120b3c695154e2d8addd0774af324f0fe413c70d1c214c68acd17ee068fd822f05d4a2737e40f96091429ef2a2a385edaf261c142d262170",
+          "sha256": "cbe4adceca878d567670a6412f45aa41ed950e4e22baa6a857083aaa7b256c09",
+          "sha1": "4c57657a0ea61d7cd4f12a166943d06780ba3996",
+          "md5": "79689b2b5f2f7e506c1ab3f6b569af4d"
+        }
+      ]
+    }
+  ]
+}
