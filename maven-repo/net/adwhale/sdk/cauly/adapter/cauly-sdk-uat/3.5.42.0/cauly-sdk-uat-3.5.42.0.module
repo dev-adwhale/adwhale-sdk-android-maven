@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.cauly.adapter",
+    "module": "cauly-sdk-uat",
+    "version": "3.5.42.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "uatDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "cauly-sdk-uat-3.5.42.0.aar",
+          "url": "cauly-sdk-uat-3.5.42.0.aar",
+          "size": 39170,
+          "sha512": "1a1e058d36c21d54a7d09f4309de819714711c9c39a9f0714f90a7bf15ceca71ebf252c41f868325ac8276643bec5ae76222a2b19f75d6e504b0a23da6c28627",
+          "sha256": "3d2c4fc770e3dfcf94d28b6fa384a71d64675f9eb854903283542fa2eff9fc82",
+          "sha1": "c968f9b2c7813225dc6ec7bd6d8e13a135487da3",
+          "md5": "1acafcf256bd70b7296891e4a875c0cb"
+        }
+      ]
+    },
+    {
+      "name": "uatDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk-uat",
+          "version": {
+            "requires": "2.7.3"
+          }
+        },
+        {
+          "group": "com.fsn.cauly",
+          "module": "cauly-sdk-uat",
+          "version": {
+            "requires": "3.5.42"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cauly-sdk-uat-3.5.42.0.aar",
+          "url": "cauly-sdk-uat-3.5.42.0.aar",
+          "size": 39170,
+          "sha512": "1a1e058d36c21d54a7d09f4309de819714711c9c39a9f0714f90a7bf15ceca71ebf252c41f868325ac8276643bec5ae76222a2b19f75d6e504b0a23da6c28627",
+          "sha256": "3d2c4fc770e3dfcf94d28b6fa384a71d64675f9eb854903283542fa2eff9fc82",
+          "sha1": "c968f9b2c7813225dc6ec7bd6d8e13a135487da3",
+          "md5": "1acafcf256bd70b7296891e4a875c0cb"
+        }
+      ]
+    }
+  ]
+}
