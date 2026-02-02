@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.admob.adapter",
+    "module": "admob-sdk-uat",
+    "version": "24.3.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "uatDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "admob-sdk-uat-24.3.0.3.aar",
+          "url": "admob-sdk-uat-24.3.0.3.aar",
+          "size": 174834,
+          "sha512": "598e12171579ced28bfdb088ecf352fa5c10802c26d04b14191e8cdac35f2c41050212ae0251f3cd1f2e97923afb157828637b5261e4611566f9c29a91781bd1",
+          "sha256": "bea36742c8cba3c07f37608ceabbf55fd3f7eb7291081e06a1a7d03c77302e31",
+          "sha1": "46cbb0ed20bff7c7f04f980c4a73194d9c7570ce",
+          "md5": "0b040195b2da64ba8f62796f5c4bc137"
+        }
+      ]
+    },
+    {
+      "name": "uatDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk-uat",
+          "version": {
+            "requires": "2.7.3"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "24.3.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "admob-sdk-uat-24.3.0.3.aar",
+          "url": "admob-sdk-uat-24.3.0.3.aar",
+          "size": 174834,
+          "sha512": "598e12171579ced28bfdb088ecf352fa5c10802c26d04b14191e8cdac35f2c41050212ae0251f3cd1f2e97923afb157828637b5261e4611566f9c29a91781bd1",
+          "sha256": "bea36742c8cba3c07f37608ceabbf55fd3f7eb7291081e06a1a7d03c77302e31",
+          "sha1": "46cbb0ed20bff7c7f04f980c4a73194d9c7570ce",
+          "md5": "0b040195b2da64ba8f62796f5c4bc137"
+        }
+      ]
+    }
+  ]
+}
