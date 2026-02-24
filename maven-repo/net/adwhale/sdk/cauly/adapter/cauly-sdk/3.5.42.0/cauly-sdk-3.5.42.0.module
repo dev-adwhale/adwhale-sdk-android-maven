@@ -1,0 +1,81 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.cauly.adapter",
+    "module": "cauly-sdk",
+    "version": "3.5.42.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "realReleaseVariantRealReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "cauly-sdk-3.5.42.0.aar",
+          "url": "cauly-sdk-3.5.42.0.aar",
+          "size": 34035,
+          "sha512": "b89f1f307e2bb71b3fbd176c59b9f013cbbf8ff064d813483c3c0f93ac9725247aaadb1296e0d95b90924cb2824f472831b9d82a6e4c34c583f96b06d157f318",
+          "sha256": "cb9cdacec4415b2a651c3f0b4222c8dc771de472e39a040ea9beb51ff9226dcc",
+          "sha1": "bce10da86c11c2f77f7df263948889abd32e35d7",
+          "md5": "865b39df8aa7a34faf9e3426afe0dba2"
+        }
+      ]
+    },
+    {
+      "name": "realReleaseVariantRealReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk",
+          "version": {
+            "requires": "2.7.3"
+          }
+        },
+        {
+          "group": "com.fsn.cauly",
+          "module": "cauly-sdk",
+          "version": {
+            "requires": "3.5.42"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cauly-sdk-3.5.42.0.aar",
+          "url": "cauly-sdk-3.5.42.0.aar",
+          "size": 34035,
+          "sha512": "b89f1f307e2bb71b3fbd176c59b9f013cbbf8ff064d813483c3c0f93ac9725247aaadb1296e0d95b90924cb2824f472831b9d82a6e4c34c583f96b06d157f318",
+          "sha256": "cb9cdacec4415b2a651c3f0b4222c8dc771de472e39a040ea9beb51ff9226dcc",
+          "sha1": "bce10da86c11c2f77f7df263948889abd32e35d7",
+          "md5": "865b39df8aa7a34faf9e3426afe0dba2"
+        }
+      ]
+    }
+  ]
+}
