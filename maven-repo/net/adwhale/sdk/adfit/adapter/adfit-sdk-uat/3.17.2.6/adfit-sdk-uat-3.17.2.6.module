@@ -10,12 +10,12 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.4"
+      "version": "8.0.2"
     }
   },
   "variants": [
     {
-      "name": "uatDebugApiPublication",
+      "name": "uatDebugVariantUatDebugApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -26,16 +26,16 @@
         {
           "name": "adfit-sdk-uat-3.17.2.6.aar",
           "url": "adfit-sdk-uat-3.17.2.6.aar",
-          "size": 15723,
-          "sha512": "8f940a0f3a599d60788db4d14bcf5297a6ad765f26aa18e88e878b531d4e64b858c0eefaf138dc1eac91e79acbd7d059cee210a8534f44087280633a35f01ef9",
-          "sha256": "7d9968b1960791f8448d650c281ac38d3aab1afb3249c1d64f7485064e6992cb",
-          "sha1": "ec4a2fa8c202b07dbe5a87d7fbb5189e3670fc66",
-          "md5": "caadde99a0bae83f51a9749af6cfd9a1"
+          "size": 15929,
+          "sha512": "80cc051ea288c3ca473617b6073e14023b074bc1bbac5fb61b9888dfe44d8e71685a5e9ce3493179f071781ce626188b9a6ac02a85a9cd07a89f113799d45c14",
+          "sha256": "1d81cbda89175ccbc536bb083688644a1d6783218b8ac8e926f602bf44d6b563",
+          "sha1": "08fb7861c086f2e693d22aa505ce9a9568ccc30b",
+          "md5": "e6804e1da4dd5d8b52359a79410e91d5"
         }
       ]
     },
     {
-      "name": "uatDebugRuntimePublication",
+      "name": "uatDebugVariantUatDebugRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -62,11 +62,11 @@
         {
           "name": "adfit-sdk-uat-3.17.2.6.aar",
           "url": "adfit-sdk-uat-3.17.2.6.aar",
-          "size": 15723,
-          "sha512": "8f940a0f3a599d60788db4d14bcf5297a6ad765f26aa18e88e878b531d4e64b858c0eefaf138dc1eac91e79acbd7d059cee210a8534f44087280633a35f01ef9",
-          "sha256": "7d9968b1960791f8448d650c281ac38d3aab1afb3249c1d64f7485064e6992cb",
-          "sha1": "ec4a2fa8c202b07dbe5a87d7fbb5189e3670fc66",
-          "md5": "caadde99a0bae83f51a9749af6cfd9a1"
+          "size": 15929,
+          "sha512": "80cc051ea288c3ca473617b6073e14023b074bc1bbac5fb61b9888dfe44d8e71685a5e9ce3493179f071781ce626188b9a6ac02a85a9cd07a89f113799d45c14",
+          "sha256": "1d81cbda89175ccbc536bb083688644a1d6783218b8ac8e926f602bf44d6b563",
+          "sha1": "08fb7861c086f2e693d22aa505ce9a9568ccc30b",
+          "md5": "e6804e1da4dd5d8b52359a79410e91d5"
         }
       ]
     }
