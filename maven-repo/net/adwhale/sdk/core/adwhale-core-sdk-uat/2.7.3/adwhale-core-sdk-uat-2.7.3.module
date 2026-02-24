@@ -10,12 +10,12 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "7.4"
+      "version": "8.0.2"
     }
   },
   "variants": [
     {
-      "name": "uatDebugApiPublication",
+      "name": "uatDebugVariantUatDebugApiPublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -26,16 +26,16 @@
         {
           "name": "adwhale-core-sdk-uat-2.7.3.aar",
           "url": "adwhale-core-sdk-uat-2.7.3.aar",
-          "size": 48258,
-          "sha512": "0d2571ad6913f67467134aa1cb5563c6222513a90f6baca6352423db29c6966c63d93abbd66e8a9c0f582be1390500c9f59a7c495efdb53df50f3ecd3f78fe16",
-          "sha256": "1f6688376be51b42e501984de6f8bef1f61f2b8ebca79855d8afec8b81cc406c",
-          "sha1": "efe5ab3bf162fdca7a78a408f79f163cb55a4b7e",
-          "md5": "d4434d6e43ff74d8a95e675e1be42b3a"
+          "size": 50626,
+          "sha512": "78e335a0136909079392c6485a976d6e35c9f56f476bd6c1c7a550f8fdbfb2dfbac22a9110886e60ce2a5f40f50073c87322fe0ef856290914061dee862d809a",
+          "sha256": "e879c6292d22c7c82ef705008fbc9e654adfba8d7f6a71408c4b4758b46cb604",
+          "sha1": "6eb4483d09df0b68a3456a3bf54bbc7285d5476a",
+          "md5": "f07358a131cec002847251d54c28e6e4"
         }
       ]
     },
     {
-      "name": "uatDebugRuntimePublication",
+      "name": "uatDebugVariantUatDebugRuntimePublication",
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
@@ -76,11 +76,11 @@
         {
           "name": "adwhale-core-sdk-uat-2.7.3.aar",
           "url": "adwhale-core-sdk-uat-2.7.3.aar",
-          "size": 48258,
-          "sha512": "0d2571ad6913f67467134aa1cb5563c6222513a90f6baca6352423db29c6966c63d93abbd66e8a9c0f582be1390500c9f59a7c495efdb53df50f3ecd3f78fe16",
-          "sha256": "1f6688376be51b42e501984de6f8bef1f61f2b8ebca79855d8afec8b81cc406c",
-          "sha1": "efe5ab3bf162fdca7a78a408f79f163cb55a4b7e",
-          "md5": "d4434d6e43ff74d8a95e675e1be42b3a"
+          "size": 50626,
+          "sha512": "78e335a0136909079392c6485a976d6e35c9f56f476bd6c1c7a550f8fdbfb2dfbac22a9110886e60ce2a5f40f50073c87322fe0ef856290914061dee862d809a",
+          "sha256": "e879c6292d22c7c82ef705008fbc9e654adfba8d7f6a71408c4b4758b46cb604",
+          "sha1": "6eb4483d09df0b68a3456a3bf54bbc7285d5476a",
+          "md5": "f07358a131cec002847251d54c28e6e4"
         }
       ]
     }
