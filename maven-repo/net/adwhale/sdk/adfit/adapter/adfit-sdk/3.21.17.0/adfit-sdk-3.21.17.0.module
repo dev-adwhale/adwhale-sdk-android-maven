@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.adfit.adapter",
+    "module": "adfit-sdk",
+    "version": "3.21.17.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "realReleaseVariantRealReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "adfit-sdk-3.21.17.0.aar",
+          "url": "adfit-sdk-3.21.17.0.aar",
+          "size": 25010,
+          "sha512": "394724baef88af2d731cbd75142cd0c60b43a749c649c5b9993c6eb447143df900633bfb8eab3980e38590dd86c8f18e53c9ba8e7c6b90e17b44788aabf3de36",
+          "sha256": "37ee1309393e34cb7447989ef49e65d9aa51c0c9b11743bd54d4946a9e10d6ad",
+          "sha1": "6ba00b342df16a2c1f842f24643d5bdffc374917",
+          "md5": "9356bebf546c12c05f7d71a7eea04953"
+        }
+      ]
+    },
+    {
+      "name": "realReleaseVariantRealReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk",
+          "version": {
+            "requires": "2.7.3"
+          }
+        },
+        {
+          "group": "com.kakao.adfit",
+          "module": "ads-base",
+          "version": {
+            "requires": "3.21.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adfit-sdk-3.21.17.0.aar",
+          "url": "adfit-sdk-3.21.17.0.aar",
+          "size": 25010,
+          "sha512": "394724baef88af2d731cbd75142cd0c60b43a749c649c5b9993c6eb447143df900633bfb8eab3980e38590dd86c8f18e53c9ba8e7c6b90e17b44788aabf3de36",
+          "sha256": "37ee1309393e34cb7447989ef49e65d9aa51c0c9b11743bd54d4946a9e10d6ad",
+          "sha1": "6ba00b342df16a2c1f842f24643d5bdffc374917",
+          "md5": "9356bebf546c12c05f7d71a7eea04953"
+        }
+      ]
+    }
+  ]
+}
