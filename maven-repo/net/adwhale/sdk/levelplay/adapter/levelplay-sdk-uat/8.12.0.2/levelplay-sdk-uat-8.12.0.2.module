@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.levelplay.adapter",
+    "module": "levelplay-sdk-uat",
+    "version": "8.12.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "uatDebugVariantUatDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "levelplay-sdk-uat-8.12.0.2.aar",
+          "url": "levelplay-sdk-uat-8.12.0.2.aar",
+          "size": 57276,
+          "sha512": "849611a2d9f5feb7f2c802aae1926576653d8bb6a703337ade90ee90a43481e230c2a98db7a67051409c826726d840fdc7c5a63fd4095dd8539a1f6d3a452fcf",
+          "sha256": "d787c12d09153f2f7fe136637c5a2c82917da242cb18c278a6557e0109d68404",
+          "sha1": "17b41031d5d3e5738d711e0a18c4dbd0604de2ce",
+          "md5": "42720e751b367cf8fc0e3d1828510558"
+        }
+      ]
+    },
+    {
+      "name": "uatDebugVariantUatDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk-uat",
+          "version": {
+            "requires": "2.7.5"
+          }
+        },
+        {
+          "group": "com.unity3d.ads-mediation",
+          "module": "mediation-sdk",
+          "version": {
+            "requires": "8.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "levelplay-sdk-uat-8.12.0.2.aar",
+          "url": "levelplay-sdk-uat-8.12.0.2.aar",
+          "size": 57276,
+          "sha512": "849611a2d9f5feb7f2c802aae1926576653d8bb6a703337ade90ee90a43481e230c2a98db7a67051409c826726d840fdc7c5a63fd4095dd8539a1f6d3a452fcf",
+          "sha256": "d787c12d09153f2f7fe136637c5a2c82917da242cb18c278a6557e0109d68404",
+          "sha1": "17b41031d5d3e5738d711e0a18c4dbd0604de2ce",
+          "md5": "42720e751b367cf8fc0e3d1828510558"
+        }
+      ]
+    }
+  ]
+}
