@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.admize.adapter",
+    "module": "admize-sdk-uat",
+    "version": "1.0.8.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "uatDebugVariantUatDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "admize-sdk-uat-1.0.8.3.aar",
+          "url": "admize-sdk-uat-1.0.8.3.aar",
+          "size": 35927,
+          "sha512": "6864b624c0039ef6ca0a9db2fc6c7db43abe545cc9438d5d213079b38ff709ead2cf86704a7ff1e5c95460d6ca016de89b46a66adcd840f088a6c519a8e23091",
+          "sha256": "059c666b4f1253f27e664567f503b201c6d434064654ca0b1ebdee291b087997",
+          "sha1": "df3efeaaa4637666f933eb1d556138e5dd33d9d6",
+          "md5": "3266d7a8684179dd590cc444f2bfe9b4"
+        }
+      ]
+    },
+    {
+      "name": "uatDebugVariantUatDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk-uat",
+          "version": {
+            "requires": "2.7.5"
+          }
+        },
+        {
+          "group": "io.admize.sdk.android",
+          "module": "admize-sdk-android-uat",
+          "version": {
+            "requires": "1.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "admize-sdk-uat-1.0.8.3.aar",
+          "url": "admize-sdk-uat-1.0.8.3.aar",
+          "size": 35927,
+          "sha512": "6864b624c0039ef6ca0a9db2fc6c7db43abe545cc9438d5d213079b38ff709ead2cf86704a7ff1e5c95460d6ca016de89b46a66adcd840f088a6c519a8e23091",
+          "sha256": "059c666b4f1253f27e664567f503b201c6d434064654ca0b1ebdee291b087997",
+          "sha1": "df3efeaaa4637666f933eb1d556138e5dd33d9d6",
+          "md5": "3266d7a8684179dd590cc444f2bfe9b4"
+        }
+      ]
+    }
+  ]
+}
