@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.levelplay.adapter",
+    "module": "levelplay-sdk",
+    "version": "8.12.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "realReleaseVariantRealReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "levelplay-sdk-8.12.0.2.aar",
+          "url": "levelplay-sdk-8.12.0.2.aar",
+          "size": 49386,
+          "sha512": "ba809afd23e5b6390d2547c0f47674c06a08661a5ea2106aa5afeb10f2a53ddfdd3b839a35a2cc5bfa104e4e988139acbaa921da171edcabf2198daae1063411",
+          "sha256": "7a8289743bb2b906605f59c30a39ede0496d2659dc47f0e8f723c3d085344ebc",
+          "sha1": "ae194966ffec41b9fef048e20ab5667884df1fdb",
+          "md5": "fa546d4b0457266c17ac1cf4c385b48f"
+        }
+      ]
+    },
+    {
+      "name": "realReleaseVariantRealReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk",
+          "version": {
+            "requires": "2.7.5"
+          }
+        },
+        {
+          "group": "com.unity3d.ads-mediation",
+          "module": "mediation-sdk",
+          "version": {
+            "requires": "8.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "levelplay-sdk-8.12.0.2.aar",
+          "url": "levelplay-sdk-8.12.0.2.aar",
+          "size": 49386,
+          "sha512": "ba809afd23e5b6390d2547c0f47674c06a08661a5ea2106aa5afeb10f2a53ddfdd3b839a35a2cc5bfa104e4e988139acbaa921da171edcabf2198daae1063411",
+          "sha256": "7a8289743bb2b906605f59c30a39ede0496d2659dc47f0e8f723c3d085344ebc",
+          "sha1": "ae194966ffec41b9fef048e20ab5667884df1fdb",
+          "md5": "fa546d4b0457266c17ac1cf4c385b48f"
+        }
+      ]
+    }
+  ]
+}
