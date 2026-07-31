@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.mediation",
+    "module": "adwhale-mediation-sdk",
+    "version": "2.7.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "realReleaseVariantRealReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "adwhale-mediation-sdk-2.7.6.aar",
+          "url": "adwhale-mediation-sdk-2.7.6.aar",
+          "size": 136412,
+          "sha512": "82b0ad13c4768ff98d1322dd4cc1bf0c858c71fbd361b0b1bb980638bffed7eef28a0cd5badb5a7b1cf9700d47abcb14f2478b4bbfedd5bf176376a2c67afe89",
+          "sha256": "a93a0495ee73be88dcb1ec4c737aea6dbad8202680914500618ce068e535481d",
+          "sha1": "9ec8846c1e1b40c7f2c91c8a50eec80414f417e3",
+          "md5": "6a885d6ea0450eaf7a3e4494f71817af"
+        }
+      ]
+    },
+    {
+      "name": "realReleaseVariantRealReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk",
+          "version": {
+            "requires": "2.7.6"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "com.jakewharton",
+          "module": "butterknife",
+          "version": {
+            "requires": "10.2.3"
+          }
+        },
+        {
+          "group": "androidx.multidex",
+          "module": "multidex-instrumentation",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava3",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava3",
+          "module": "rxandroid",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava3",
+          "module": "rxjava",
+          "version": {
+            "requires": "3.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adwhale-mediation-sdk-2.7.6.aar",
+          "url": "adwhale-mediation-sdk-2.7.6.aar",
+          "size": 136412,
+          "sha512": "82b0ad13c4768ff98d1322dd4cc1bf0c858c71fbd361b0b1bb980638bffed7eef28a0cd5badb5a7b1cf9700d47abcb14f2478b4bbfedd5bf176376a2c67afe89",
+          "sha256": "a93a0495ee73be88dcb1ec4c737aea6dbad8202680914500618ce068e535481d",
+          "sha1": "9ec8846c1e1b40c7f2c91c8a50eec80414f417e3",
+          "md5": "6a885d6ea0450eaf7a3e4494f71817af"
+        }
+      ]
+    }
+  ]
+}
