@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.core",
+    "module": "adwhale-core-sdk",
+    "version": "2.7.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "realReleaseVariantRealReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "adwhale-core-sdk-2.7.8.aar",
+          "url": "adwhale-core-sdk-2.7.8.aar",
+          "size": 49165,
+          "sha512": "09569a95bbe5cfef16ed8575a8b7c726cc59e48a278f15f7e67670969920ba40dd26b2d2d07065d5761b7bdf9d89e6ff60134e39578234043f6321f9f0b73b25",
+          "sha256": "556a9a8fa9f89ed8669c92880648be11138a61a469efefe3442f29392b540543",
+          "sha1": "570288b2db745c37ca897a478095286fb0709dce",
+          "md5": "67b1abaf56429ce6bf76ce3418f48b73"
+        }
+      ]
+    },
+    {
+      "name": "realReleaseVariantRealReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "18.0.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-appset",
+          "version": {
+            "requires": "16.0.2"
+          }
+        },
+        {
+          "group": "com.google.android.ump",
+          "module": "user-messaging-platform",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adwhale-core-sdk-2.7.8.aar",
+          "url": "adwhale-core-sdk-2.7.8.aar",
+          "size": 49165,
+          "sha512": "09569a95bbe5cfef16ed8575a8b7c726cc59e48a278f15f7e67670969920ba40dd26b2d2d07065d5761b7bdf9d89e6ff60134e39578234043f6321f9f0b73b25",
+          "sha256": "556a9a8fa9f89ed8669c92880648be11138a61a469efefe3442f29392b540543",
+          "sha1": "570288b2db745c37ca897a478095286fb0709dce",
+          "md5": "67b1abaf56429ce6bf76ce3418f48b73"
+        }
+      ]
+    }
+  ]
+}
