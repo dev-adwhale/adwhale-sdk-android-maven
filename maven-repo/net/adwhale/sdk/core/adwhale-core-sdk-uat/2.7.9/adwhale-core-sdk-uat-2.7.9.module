@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.core",
+    "module": "adwhale-core-sdk-uat",
+    "version": "2.7.9",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "uatDebugVariantUatDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "adwhale-core-sdk-uat-2.7.9.aar",
+          "url": "adwhale-core-sdk-uat-2.7.9.aar",
+          "size": 54894,
+          "sha512": "0f75de88433cc9d8cb34c94a93c34e7da57baf1783677330dbd63c72ea6262a9b8c6faff667cb4b2c0ab0c0caa8cdbb8ba1c12995cac49d60f09836d117bcdae",
+          "sha256": "f51be06d02f303d107ee51293f7af34654d26ba8500cfbbc594722c55816026c",
+          "sha1": "62ddc82b16e0f0035c1cc7745939abdc48d211fa",
+          "md5": "6e10d28f0fdbe4f14dcf27c50ce656df"
+        }
+      ]
+    },
+    {
+      "name": "uatDebugVariantUatDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads-identifier",
+          "version": {
+            "requires": "18.0.1"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-appset",
+          "version": {
+            "requires": "16.0.2"
+          }
+        },
+        {
+          "group": "com.google.android.ump",
+          "module": "user-messaging-platform",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "androidx.preference",
+          "module": "preference",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adwhale-core-sdk-uat-2.7.9.aar",
+          "url": "adwhale-core-sdk-uat-2.7.9.aar",
+          "size": 54894,
+          "sha512": "0f75de88433cc9d8cb34c94a93c34e7da57baf1783677330dbd63c72ea6262a9b8c6faff667cb4b2c0ab0c0caa8cdbb8ba1c12995cac49d60f09836d117bcdae",
+          "sha256": "f51be06d02f303d107ee51293f7af34654d26ba8500cfbbc594722c55816026c",
+          "sha1": "62ddc82b16e0f0035c1cc7745939abdc48d211fa",
+          "md5": "6e10d28f0fdbe4f14dcf27c50ce656df"
+        }
+      ]
+    }
+  ]
+}
