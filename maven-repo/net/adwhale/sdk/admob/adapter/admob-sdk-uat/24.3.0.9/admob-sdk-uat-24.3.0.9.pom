@@ -21,7 +21,7 @@
     <dependency>
       <groupId>net.adwhale.sdk.cauly.adapter</groupId>
       <artifactId>cauly-sdk-uat</artifactId>
-      <version>3.5.46.3</version>
+      <version>3.5.47.0</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
