@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.cauly.adapter",
+    "module": "cauly-sdk-uat",
+    "version": "3.5.47.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "uatDebugVariantUatDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "cauly-sdk-uat-3.5.47.1.aar",
+          "url": "cauly-sdk-uat-3.5.47.1.aar",
+          "size": 46178,
+          "sha512": "61aac5035e3d7a5cda65d71b2fd14b0ca26700812d708ce619be83ff39cb3b928d868c02820636deb5a26e6f3a6287ce6c7c8083a735ebdc1b17dc0fc0648bfa",
+          "sha256": "bb63f1d142e0be1c10f58514a3b1a76b0abca80add39336bd26a223cf2b8607c",
+          "sha1": "df8c51e93aae431ee96dd624cc2cedfd2ee7dbb3",
+          "md5": "093c856b409a66c651c8a7c0f858992c"
+        }
+      ]
+    },
+    {
+      "name": "uatDebugVariantUatDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk-uat",
+          "version": {
+            "requires": "2.7.10"
+          }
+        },
+        {
+          "group": "com.fsn.cauly",
+          "module": "cauly-sdk-uat",
+          "version": {
+            "requires": "3.5.47"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.8.9"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cauly-sdk-uat-3.5.47.1.aar",
+          "url": "cauly-sdk-uat-3.5.47.1.aar",
+          "size": 46178,
+          "sha512": "61aac5035e3d7a5cda65d71b2fd14b0ca26700812d708ce619be83ff39cb3b928d868c02820636deb5a26e6f3a6287ce6c7c8083a735ebdc1b17dc0fc0648bfa",
+          "sha256": "bb63f1d142e0be1c10f58514a3b1a76b0abca80add39336bd26a223cf2b8607c",
+          "sha1": "df8c51e93aae431ee96dd624cc2cedfd2ee7dbb3",
+          "md5": "093c856b409a66c651c8a7c0f858992c"
+        }
+      ]
+    }
+  ]
+}
