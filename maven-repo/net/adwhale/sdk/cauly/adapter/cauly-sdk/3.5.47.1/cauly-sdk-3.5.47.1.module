@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.cauly.adapter",
+    "module": "cauly-sdk",
+    "version": "3.5.47.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "realReleaseVariantRealReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "cauly-sdk-3.5.47.1.aar",
+          "url": "cauly-sdk-3.5.47.1.aar",
+          "size": 34538,
+          "sha512": "ce2f0fb3f8dfb13612c4a9a76a91c6fe4fea85a06b38f3216e0e042b66f74ff6a66066f0546e7734f48fe608dadd87b61dc8023bd9f585baec36495c987cbb54",
+          "sha256": "00179224dbe6f199d1171de2d4790c96124782edb1531ffff3ac1448209fa821",
+          "sha1": "46ba8d7aa4be2d3cc902d1f79e76101878904eb2",
+          "md5": "628031a16f54987d8a29b74092613a74"
+        }
+      ]
+    },
+    {
+      "name": "realReleaseVariantRealReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk",
+          "version": {
+            "requires": "2.7.10"
+          }
+        },
+        {
+          "group": "com.fsn.cauly",
+          "module": "cauly-sdk",
+          "version": {
+            "requires": "3.5.47"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.8.9"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cauly-sdk-3.5.47.1.aar",
+          "url": "cauly-sdk-3.5.47.1.aar",
+          "size": 34538,
+          "sha512": "ce2f0fb3f8dfb13612c4a9a76a91c6fe4fea85a06b38f3216e0e042b66f74ff6a66066f0546e7734f48fe608dadd87b61dc8023bd9f585baec36495c987cbb54",
+          "sha256": "00179224dbe6f199d1171de2d4790c96124782edb1531ffff3ac1448209fa821",
+          "sha1": "46ba8d7aa4be2d3cc902d1f79e76101878904eb2",
+          "md5": "628031a16f54987d8a29b74092613a74"
+        }
+      ]
+    }
+  ]
+}
