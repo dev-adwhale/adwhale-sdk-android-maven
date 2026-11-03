@@ -26,11 +26,11 @@
         {
           "name": "cauly-sdk-uat-3.5.47.1.aar",
           "url": "cauly-sdk-uat-3.5.47.1.aar",
-          "size": 46178,
-          "sha512": "61aac5035e3d7a5cda65d71b2fd14b0ca26700812d708ce619be83ff39cb3b928d868c02820636deb5a26e6f3a6287ce6c7c8083a735ebdc1b17dc0fc0648bfa",
-          "sha256": "bb63f1d142e0be1c10f58514a3b1a76b0abca80add39336bd26a223cf2b8607c",
-          "sha1": "df8c51e93aae431ee96dd624cc2cedfd2ee7dbb3",
-          "md5": "093c856b409a66c651c8a7c0f858992c"
+          "size": 46199,
+          "sha512": "1517f100f7242295de70b1109ee8e5e8799f5d26166472c09fec2f46d20538286272f64a7e4ec3b30fbc00b7983cd0bd65496840a0ac24693b05734d853993aa",
+          "sha256": "1b4901c78df8525465d2c173c11dd834ac47ab9d2811b69658384bb62e37cb58",
+          "sha1": "a86b90fdacdb0a6a53282afc5e70b22b9c975d23",
+          "md5": "7ac84169a3a21c3092e23e54b05d5e37"
         }
       ]
     },
@@ -76,11 +76,11 @@
         {
           "name": "cauly-sdk-uat-3.5.47.1.aar",
           "url": "cauly-sdk-uat-3.5.47.1.aar",
-          "size": 46178,
-          "sha512": "61aac5035e3d7a5cda65d71b2fd14b0ca26700812d708ce619be83ff39cb3b928d868c02820636deb5a26e6f3a6287ce6c7c8083a735ebdc1b17dc0fc0648bfa",
-          "sha256": "bb63f1d142e0be1c10f58514a3b1a76b0abca80add39336bd26a223cf2b8607c",
-          "sha1": "df8c51e93aae431ee96dd624cc2cedfd2ee7dbb3",
-          "md5": "093c856b409a66c651c8a7c0f858992c"
+          "size": 46199,
+          "sha512": "1517f100f7242295de70b1109ee8e5e8799f5d26166472c09fec2f46d20538286272f64a7e4ec3b30fbc00b7983cd0bd65496840a0ac24693b05734d853993aa",
+          "sha256": "1b4901c78df8525465d2c173c11dd834ac47ab9d2811b69658384bb62e37cb58",
+          "sha1": "a86b90fdacdb0a6a53282afc5e70b22b9c975d23",
+          "md5": "7ac84169a3a21c3092e23e54b05d5e37"
         }
       ]
     }
