@@ -1,0 +1,88 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.admob.adapter",
+    "module": "admob-sdk-uat",
+    "version": "25.4.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "uatDebugVariantUatDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "admob-sdk-uat-25.4.0.0.aar",
+          "url": "admob-sdk-uat-25.4.0.0.aar",
+          "size": 193231,
+          "sha512": "a83cbca466561c37092b6df70fde3879ab401faa83fa556c4c72c790aeeacf775d595b7ef2d15f6455667ccbba6b883d2582a0a3281e7c107ee57ff08c366f74",
+          "sha256": "278233cab60ba036d42258316e486703edba5dad18c65ff81b356cf5a38b955b",
+          "sha1": "b70ad2becab724551517165c89552764711fe688",
+          "md5": "b1bcf8a4e1327d5e649411bb404c030a"
+        }
+      ]
+    },
+    {
+      "name": "uatDebugVariantUatDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk-uat",
+          "version": {
+            "requires": "2.7.11"
+          }
+        },
+        {
+          "group": "net.adwhale.sdk.cauly.adapter",
+          "module": "cauly-sdk-uat",
+          "version": {
+            "requires": "3.5.47.2"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "25.4.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "admob-sdk-uat-25.4.0.0.aar",
+          "url": "admob-sdk-uat-25.4.0.0.aar",
+          "size": 193231,
+          "sha512": "a83cbca466561c37092b6df70fde3879ab401faa83fa556c4c72c790aeeacf775d595b7ef2d15f6455667ccbba6b883d2582a0a3281e7c107ee57ff08c366f74",
+          "sha256": "278233cab60ba036d42258316e486703edba5dad18c65ff81b356cf5a38b955b",
+          "sha1": "b70ad2becab724551517165c89552764711fe688",
+          "md5": "b1bcf8a4e1327d5e649411bb404c030a"
+        }
+      ]
+    }
+  ]
+}
