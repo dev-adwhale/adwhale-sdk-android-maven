@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.adwhale.sdk.adfit.adapter",
+    "module": "adfit-sdk-uat",
+    "version": "3.21.17.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "uatDebugVariantUatDebugApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "adfit-sdk-uat-3.21.17.8.aar",
+          "url": "adfit-sdk-uat-3.21.17.8.aar",
+          "size": 28812,
+          "sha512": "574b504313cbfdc3885cb16f02eb4f544a23fd83bff01184e934329edc520a8e984c577fa2c320e7e795f55a2295a7e0a52eb818e440118ed89d981701bf9013",
+          "sha256": "ccd7d1c63018a42f96100c9c69e9ec0b964436d6b9974e6a1e135941b2203618",
+          "sha1": "4c3ce6a995f29b791ecf6b4e553ff2b72d795421",
+          "md5": "bcca5a8dae855a6abad8cde7fc2b641e"
+        }
+      ]
+    },
+    {
+      "name": "uatDebugVariantUatDebugRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.adwhale.sdk.core",
+          "module": "adwhale-core-sdk-uat",
+          "version": {
+            "requires": "2.7.11"
+          }
+        },
+        {
+          "group": "com.kakao.adfit",
+          "module": "ads-base",
+          "version": {
+            "requires": "3.21.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "adfit-sdk-uat-3.21.17.8.aar",
+          "url": "adfit-sdk-uat-3.21.17.8.aar",
+          "size": 28812,
+          "sha512": "574b504313cbfdc3885cb16f02eb4f544a23fd83bff01184e934329edc520a8e984c577fa2c320e7e795f55a2295a7e0a52eb818e440118ed89d981701bf9013",
+          "sha256": "ccd7d1c63018a42f96100c9c69e9ec0b964436d6b9974e6a1e135941b2203618",
+          "sha1": "4c3ce6a995f29b791ecf6b4e553ff2b72d795421",
+          "md5": "bcca5a8dae855a6abad8cde7fc2b641e"
+        }
+      ]
+    }
+  ]
+}
